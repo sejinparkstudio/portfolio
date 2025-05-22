@@ -17,7 +17,7 @@ const Footer = () => {
           ))}
         </ul>
         <div className="footer__center">
-          Sejin &copy;<br />
+          Sejin Park &copy;<br />
           built with React.
         </div>
       </div>
