@@ -1,13 +1,10 @@
-import './Experience.css';
-import Projects from '../../components/Projects/Projects';
+import Projects from './Projects';
 
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-// src/components/Experience/Experience.jsx
-
-const Experience = () => {
+const Experience = (props) => {
 
   return (
       <div className="experience">
@@ -16,7 +13,7 @@ const Experience = () => {
             <Col key={idx}>
               <Card className="border-0">
                 <Card.Body>
-                  <Card.Title>Experience Title</Card.Title>
+                  <Card.Title>{props.title}</Card.Title>
                   <Card.Text>
                   <small className="text-muted">Software Engineer Fellow | General Assembly | Remote</small>
                   <Projects />

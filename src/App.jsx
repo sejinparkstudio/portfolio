@@ -1,21 +1,32 @@
-import './App.css';
-import NavBar from '../../components/NavBar/NavBar';
-import About from '../../components/About/About';
-import Projects from '../../components/Projects/Projects';
-import Experience from '../../components/Experience/Experience';
-import Footer from '../../components/Footer/Footer';
+import React from "react"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomeView from './views/HomeView';
+import AboutView from './views/AboutView';
+
+import NavBar from './components/NavBar';
+import About from './components/About';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 
-// src/pages/App.jsx
+
+// src/App.jsx
 
 function App () {
 
   return (
     <>
+      <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<HomeView />} />
+            <Route path="/about" element={<AboutView />} />
+        </Routes>
+      </BrowserRouter>
       <NavBar />
       <Container>
         <Row className="justify-content-md-center">
@@ -36,7 +47,7 @@ function App () {
             </Col>
             <Col xs lg="6">
               <About />
-              <Experience />
+              <Experience title="Software Engineer Fellow | General Assembly | Remote"/>
             </Col>
           </div>
         </Row>

@@ -1,8 +1,4 @@
-import './About.css';
-
 import Card from 'react-bootstrap/Card';
-
-// src/components/About/About.jsx
 
 const About = () => {
 

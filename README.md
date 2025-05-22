@@ -1,3 +1,3 @@
 # sejincp.co
 
-The first iteration of sejinp.co.
+The first iteration of sejinp.co

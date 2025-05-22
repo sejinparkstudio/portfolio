@@ -1,8 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Footer.css';
 import Nav from 'react-bootstrap/Nav';
-
-// src/components/Footer/Footer.jsx
 
 const Footer = () => {
 
