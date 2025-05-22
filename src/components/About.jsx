@@ -26,14 +26,6 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="img">
-              <img
-                src={sjicon}
-                width="30"
-                height="30"
-                alt="Sejin Logo"
-              />
-            </div>
         </div>
         <div className="about__lines bottom" aria-hidden="true">
             <span className="line"></span>
