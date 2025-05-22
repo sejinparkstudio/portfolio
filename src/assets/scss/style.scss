@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+// setting
+@use "setting/fonts";
+@use "setting/vars";
+@use "setting/reset";
+@use "setting/mixin";
+
+// section
+@use "section/navbar";
+@use "section/about";
+@use "section/experience";
+@use "section/projects";
+@use "section/contact";
+@use "section/footer";
