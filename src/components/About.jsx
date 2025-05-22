@@ -1,15 +1,54 @@
 import React from 'react'
+import sjicon from './../assets/sjicon.svg';
+
+const aboutText = {
+  title: "Sejin Park",
+  desc: ["I craft digital experiences where beauty meets usability."]
+}
 
 const About = () => {
 
   return (
-    <>
-      <div className="about">
-        <p>
-              With a background in metal craft & design and art direction, I bring a unique blend of visual expertise and technical problem-solving to full-stack development. Early in my career, working with both 2D and 3D software sparked a deep interest in computer engineering, leading me to create seamless, visually compelling user experiences that merge aesthetics with functionality. My goal is to create tools that are intuitive, impactful, and visually memorable.
-        </p>
+    <section id="about">
+      <div className="about__inner">
+        <h1 className="about__title">{aboutText.title}</h1>
+        <div className="about__lines" aria-hidden="true">
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+        </div>
+        <div className="about__text">
+            <div className="text">
+              <div>
+                <p>
+                  {aboutText.desc[0]}
+                </p>
+              </div>
+            </div>
+            <div className="img">
+              <img
+                src={sjicon}
+                width="30"
+                height="30"
+                alt="Sejin Logo"
+              />
+            </div>
+        </div>
+        <div className="about__lines bottom" aria-hidden="true">
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+            <span className="line"></span>
+        </div>
       </div>
-    </>
+    </section>
   );
 };
 

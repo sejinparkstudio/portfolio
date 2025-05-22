@@ -23,10 +23,6 @@ function App () {
         </Routes>
       </BrowserRouter>
       <Header />
-      <About />
-      <Projects />
-      <Experience />
-      <Footer />
     </>
   );
 };

@@ -41,7 +41,8 @@ const Header = () => {
                 />
               </a>
             </div>
-              <nav className={`header__nav ${show ? "show" : ""}`} role="navigation" aria-label="main nav">
+              <nav
+                className={`header__nav ${show ? "show" : ""}`} role="navigation" aria-label="main nav">
                 <ul>
                   {headerNav.map((nav, key) => (
                     <li key={key}>
