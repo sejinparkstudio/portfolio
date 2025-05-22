@@ -82,13 +82,12 @@ export const projText = [
   },
 ];
 
-export const contactText = [
-  {
-      link: "https://github.com/sejincp",
-      title: "Github",
-  },
-  {
-      link: "mailto:sejincp.dev@gmail.com",
-      title: "sejincp.dev@gmail.com",
-  },
+import emailIcon from './../assets/img/email.svg';
+import githubIcon from './../assets/img/github.svg';
+import linkedinIcon from './../assets/img/linkedin.svg';
+
+export const icons = [
+  { href: 'mailto:sejincp.dev@gmail.com', src: emailIcon, alt: 'Email' },
+  { href: 'https://github.com/sejincp', src: githubIcon, alt: 'GitHub' },
+  { href: 'https://www.linkedin.com/in/sejincp/', src: linkedinIcon, alt: 'LinkedIn' },
 ];

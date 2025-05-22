@@ -1,0 +1,33 @@
+#footer {
+  font-family: var(--mainKor-font);
+  margin-top: 5vh;
+}
+.footer__inner {
+  padding: 16px;
+
+  .footer__text {
+      font-size: 12px;
+      text-transform: uppercase;
+      border-top: 1px solid var(--black);
+      border-bottom: 1px solid var(--black);
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .footer__center {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 12px;
+      margin-bottom: 20px;
+  }
+
+  .footer__icons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}

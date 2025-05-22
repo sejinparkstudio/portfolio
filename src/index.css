@@ -75,10 +75,6 @@ label {
   font-size: 1rem;
 }
 
-.title {
-  margin-top: 4rem;
-}
-
 .error-message {
   color: rgb(166, 29, 29);
 }

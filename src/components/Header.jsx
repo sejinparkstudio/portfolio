@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import sjicon from './../assets/sjicon.svg';
+import sjicon from './../assets/img/sjicon.svg';
 
 import { headerNav } from "../constants";
 
