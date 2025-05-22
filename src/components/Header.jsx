@@ -1,24 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import sjicon from './../assets/sjicon.svg';
 
-const headerNav = [
-  {
-      title: "about",
-      url: "#about",
-  },
-  {
-      title: "experience",
-      url: "#experience",
-  },
-  {
-      title: "projects",
-      url: "#projects",
-  },
-  {
-      title: "contact",
-      url: "#contact",
-  },
-];
+import { headerNav } from "../constants";
 
 const Header = () => {
   const [show, setShow] = useState(false);

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const AboutView = () => {
   return (
@@ -6,4 +6,4 @@ const AboutView = () => {
   )
 }
 
-export default AboutView
+export default AboutView;

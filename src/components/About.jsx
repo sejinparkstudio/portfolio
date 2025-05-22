@@ -1,10 +1,7 @@
-import React from 'react'
+import React from 'react';
 import sjicon from './../assets/sjicon.svg';
 
-const aboutText = {
-  title: "Sejin Park",
-  desc: ["I craft digital experiences where beauty meets usability."]
-}
+import { aboutText } from "../constants";
 
 const About = () => {
 

@@ -1,15 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-const contactText = [
-  {
-      link: "https://github.com/sejincp",
-      title: "Github",
-  },
-  {
-      link: "mailto:sejincp.dev@gmail.com",
-      title: "sejincp.dev@gmail.com",
-  },
-];
+import { contactText } from "../constants";
 
 const Contact = () => {
   return (
