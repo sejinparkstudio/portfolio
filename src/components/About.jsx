@@ -1,5 +1,4 @@
 import React from 'react';
-import sjicon from './../assets/img/sjicon.svg';
 
 import { aboutText } from "../constants";
 

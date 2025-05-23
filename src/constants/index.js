@@ -4,20 +4,20 @@ import proj03 from "../assets/img/proj03.jpg";
 
 export const headerNav = [
   {
-      title: "about",
-      url: "#about",
+    title: "about",
+    url: "#about",
   },
   {
-      title: "experience",
-      url: "#experience",
+    title: "experience",
+    url: "#exp",
   },
   {
-      title: "projects",
-      url: "#projects",
+    title: "projects",
+    url: "#proj",
   },
   {
-      title: "contact",
-      url: "#contact",
+    title: "contact",
+    url: "#footer",
   },
 ];
 

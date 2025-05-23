@@ -5,10 +5,12 @@ import About from '../components/About';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
 import Footer from '../components/Footer';
+import Skip from '../components/Skip';
 
 const HomeView = () => {
   return (
     <>
+      <Skip />
       <Header />
       <Main>
         <About />

@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 // setting
+@use "setting/reset";
 @use "setting/fonts";
 @use "setting/vars";
-@use "setting/reset";
 @use "setting/mixin";
 
 // section
