@@ -33,6 +33,11 @@ const Experience = () => {
                         Projects
                       </a>
                     )}
+                    {exp.badge && (
+                      <div>
+                        {exp.badge}
+                      </div>
+                    )}
                 </div>
               ))}
           </div>

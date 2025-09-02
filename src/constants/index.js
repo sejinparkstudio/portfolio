@@ -32,7 +32,12 @@ export const expText = [
       subtitle: "General Assembly | Remote | 2025",
       desc: "Developed, designed, and collaborated on full-stack web applications as a Software Engineer Fellow at General Assembly. Built responsive and accessible user interfaces, planned data structures and ERDs, and integrated front-end with back-end systems across multiple projects.",
       tag: ["JavaScript", "React"],
-      link: "/"
+      link: "/",
+      badgeImage: "https://api.badgr.io/public/assertions/A_qP119XRZ2If0bM7_mvZw/image",
+      badgeLink: "https://api.badgr.io/public/assertions/A_qP119XRZ2If0bM7_mvZw",
+      badgeTitle: "Software Engineering Bootcamp",
+      badgeAwardedDate: "May 4, 2025",
+      badgeRecipient: "Sejin Park"
   },
   {
       title: "Art Director",
