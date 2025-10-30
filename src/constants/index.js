@@ -87,7 +87,7 @@ import githubIcon from './../assets/img/github.svg';
 import linkedinIcon from './../assets/img/linkedin.svg';
 
 export const icons = [
-  { href: 'mailto:sejincp.dev@gmail.com', src: emailIcon, alt: 'Email' },
-  { href: 'https://github.com/sejincp', src: githubIcon, alt: 'GitHub' },
-  { href: 'https://www.linkedin.com/in/sejincp/', src: linkedinIcon, alt: 'LinkedIn' },
+  { href: 'mailto:sejinparkstudio@gmail.com', src: emailIcon, alt: 'Email' },
+  { href: 'https://github.com/sejinparkstudio', src: githubIcon, alt: 'GitHub' },
+  { href: 'https://www.linkedin.com/in/sejinpark-spark/', src: linkedinIcon, alt: 'LinkedIn' },
 ];
