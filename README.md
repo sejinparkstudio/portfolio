@@ -1,3 +1,3 @@
-### sejincp.co
+### sejinparkstudio.com
 
-The first iteration of sejinp.co
+Creative technology and interactive design projects by Sejin Park, exploring the space where design meets code.
