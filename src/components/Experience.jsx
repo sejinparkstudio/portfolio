@@ -14,7 +14,7 @@ const Experience = () => {
                 <div className="exp__container" key={key}>
                     <span>{key+1}</span>
                     <h3>{exp.title}</h3>
-                    <h6>{exp.subtitle}</h6>
+                    <h4>{exp.subtitle}</h4>
                     <p>{exp.desc}</p>
                     {exp.tag && (
                       <div className='exp__tags'>
