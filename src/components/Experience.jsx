@@ -30,7 +30,6 @@ const Experience = () => {
                         rel="noopener noreferrer" 
                         className="exp__button"
                       >
-                        Projects
                       </a>
                     )}
                 </div>
